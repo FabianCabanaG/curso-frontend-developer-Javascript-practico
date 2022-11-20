@@ -1,16 +1,21 @@
+// Navbar email
 const menuEmail = document.querySelector('.navbar-email');
 const desktopMenu = document.querySelector('.desktop-menu'); 
-var desktopMenuClass = desktopMenu.classList;
 
-desktopMenu.some
+const mobileMenu = document.querySelector('.mobile-menu'); 
+const menuIcon = document.querySelector('.menuIcon'); 
+
+const shoppingCart = document.querySelector('.product-detal'); 
+
+
 
 function toggleDesktopMenu () {
-    if (desktopMenuClass.contains("inactive")) {
-        desktopMenu.classList.remove('inactive')
-    } else {
-        desktopMenu.classList.add('inactive')
-    }
-    
+    desktopMenu.classList.toggle('inactive')
+};
+
+function toggleMobileMenu () {
+    mobileMenu.classList.toggle('inactive')
 };
 
 menuEmail.addEventListener('click',toggleDesktopMenu);
+menuIcon.addEventListener('click',toggleMobileMenu);
