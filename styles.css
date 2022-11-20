@@ -26,6 +26,7 @@
   }
   .menuIcon {
     display: none;
+    cursor:pointer;
   }
   .logo {
     width: 100px;
@@ -67,6 +68,7 @@
   }
   .navbar-shopping-cart {
     position: relative;
+    cursor:pointer;
   }
   .navbar-shopping-cart div {
     width: 16px;
@@ -124,7 +126,8 @@
   .mobile-menu {
     padding: 24px;
     position:absolute;
-    top:60px;
+    top:80px;
+    background-color: var(--white);
   }
   .mobile-menu a {
     text-decoration: none;
@@ -159,6 +162,7 @@
     box-sizing: border-box;
     position: absolute;
     right: 0;
+    background-color: var(--white);
   }
   .title-container {
     display: flex;
