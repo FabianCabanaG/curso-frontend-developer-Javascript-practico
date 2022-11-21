@@ -91,8 +91,8 @@ function renderProducts(arr) {
         cardsContainer.appendChild(productCard);
     
     }
-}
+};
 
-renderProducts(productList)
+renderProducts(productList);
 
 
